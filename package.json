@@ -1,0 +1,30 @@
+{
+  "name": "emdash-plugin-slack",
+  "version": "0.1.0",
+  "description": "Slack notifications for EmDash CMS — notify your team when content is published",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./sandbox": {
+      "import": "./dist/sandbox-entry.js",
+      "types": "./dist/sandbox-entry.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["emdash", "emdash-plugin", "slack", "notifications"],
+  "author": "lsngmin",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "emdash": "^0.6.0",
+    "typescript": "^5.9.3"
+  }
+}
