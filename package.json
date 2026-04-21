@@ -1,6 +1,6 @@
 {
   "name": "emdash-plugin-slack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Slack notifications for EmDash CMS — notify your team when content is published",
   "type": "module",
   "main": "./dist/index.js",
