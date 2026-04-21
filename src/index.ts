@@ -3,7 +3,7 @@ import type { PluginDescriptor } from "emdash";
 export function slackPlugin(): PluginDescriptor {
 	return {
 		id: "emdash-plugin-slack",
-		version: "0.1.1",
+		version: "0.1.11",
 		format: "standard",
 		entrypoint: "emdash-plugin-slack/sandbox",
 		capabilities: ["network:fetch:any", "read:content"],
